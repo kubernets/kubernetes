@@ -1,0 +1,36 @@
+[submodule "kube-scheduler"]
+	path = kube-scheduler
+	url = git@github.com:kubernets/kube-scheduler.git
+[submodule "kube-proxy"]
+	path = kube-proxy
+	url = git@github.com:kubernets/kube-proxy.git
+[submodule "etcd"]
+	path = etcd
+	url = git@github.com:kubernets/etcd.git
+[submodule "pause"]
+	path = pause
+	url = git@github.com:kubernets/pause.git
+[submodule "kube-apiserver"]
+	path = kube-apiserver
+	url = git@github.com:kubernets/kube-apiserver.git
+[submodule "hyperkube"]
+	path = hyperkube
+	url = git@github.com:kubernets/hyperkube.git
+[submodule "k8s-dns-sidecar"]
+	path = k8s-dns-sidecar
+	url = git@github.com:kubernets/k8s-dns-sidecar.git
+[submodule "k8s-dns-dnsmasq-nanny"]
+	path = k8s-dns-dnsmasq-nanny
+	url = git@github.com:kubernets/k8s-dns-dnsmasq-nanny.git
+[submodule "k8s-dns-kube-dns"]
+	path = k8s-dns-kube-dns
+	url = git@github.com:kubernets/k8s-dns-kube-dns.git
+[submodule "kubernetes-dashboard"]
+	path = kubernetes-dashboard
+	url = git@github.com:kubernets/kubernetes-dashboard.git
+[submodule "heapster"]
+	path = heapster
+	url = git@github.com:kubernets/heapster.git
+[submodule "kube-controller-manager"]
+	path = kube-controller-manager
+	url = git@github.com:kubernets/kube-controller-manager.git
