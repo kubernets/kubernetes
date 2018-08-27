@@ -34,3 +34,6 @@
 [submodule "kube-controller-manager"]
 	path = kube-controller-manager
 	url = git@github.com:kubernets/kube-controller-manager.git
+[submodule "coredns"]
+	path = coredns
+	url = git@github.com:kubernets/coredns.git

@@ -3,6 +3,7 @@
 1. **git-push.sh**
 
     Check the changes of Dockerfile files, automatically generate README.md files, take the version number of Dockerfile as tag and submit it to GitHub.
+    Get new tag from: [https://console.cloud.google.com/gcr/images/google-containers/GLOBAL?location=GLOBAL&project=google-containers](https://console.cloud.google.com/gcr/images/google-containers/GLOBAL?location=GLOBAL&project=google-containers)
 
 2. **docker-pull.sh**
 
@@ -11,3 +12,9 @@
 3. **kubeadm.sh**
 
     Use kubeadm install kubernetes.
+
+## use
+
+1. generate git readme.md
+
+    > ./script/git-push.sh -r
