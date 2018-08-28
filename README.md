@@ -22,6 +22,10 @@ docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/ku
 
     https://github.com/kubernets/kube-apiserver
 
+1. **heapster-influxdb** v1.5.2
+
+    https://github.com/kubernets/heapster-influxdb
+
 1. **kube-scheduler** v1.11.2
 
     https://github.com/kubernets/kube-scheduler
@@ -53,6 +57,10 @@ docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/ku
 1. **k8s-dns-kube-dns** 1.14.10
 
     https://github.com/kubernets/k8s-dns-kube-dns
+
+1. **heapster-grafana** v5.0.4
+
+    https://github.com/kubernets/heapster-grafana
 
 1. **heapster** v1.5.4
 

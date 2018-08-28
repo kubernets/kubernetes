@@ -37,3 +37,9 @@
 [submodule "coredns"]
 	path = coredns
 	url = git@github.com:kubernets/coredns.git
+[submodule "heapster-influxdb"]
+	path = heapster-influxdb
+	url = git@github.com:kubernets/heapster-influxdb.git
+[submodule "heapster-grafana"]
+	path = heapster-grafana
+	url = git@github.com:kubernets/heapster-grafana.git
