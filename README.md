@@ -62,7 +62,7 @@ docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/ku
 
     https://github.com/kubernets/heapster-grafana
 
-1. **tiller** v2.8.2
+1. **tiller** v2.10.0
 
     https://github.com/kubernets/tiller
 
