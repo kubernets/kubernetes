@@ -43,3 +43,6 @@
 [submodule "heapster-grafana"]
 	path = heapster-grafana
 	url = git@github.com:kubernets/heapster-grafana.git
+[submodule "tiller"]
+	path = tiller
+	url = git@github.com:kubernets/tiller.git
