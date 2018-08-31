@@ -156,7 +156,7 @@ function add-readme-arch(){
 
     > docker rmi $organization/$2$arch:$4
 EOF
-            $debug tee -a $1/get-$2-image.sh << EOF
+            $debug tee $1/get-$2-image.sh << EOF
 docker pull $organization/$2$arch:$4
 docker tag $organization/$2$arch:$4 $5 
 docker rmi $organization/$2$arch:$4
@@ -173,11 +173,20 @@ function add-readme-link(){
 
     $github_base/$2
 EOF
+
+    $debug tee -a $1/get-Kubernetes-image.sh << EOF
+# image: $2 
+# tag: $3
+# repo: $github_base/$2
+wget $github_base/$2/raw/master/get-$2-image.sh
+
+EOF
 }
 
 function gen-root-readme(){
     if [ "$debug" == "" ]; then
         readme-init $1 "Kubernetes"
+        rm -f $1/get-Kubernetes-image.sh
     fi
 
     files=`find $1 -name Dockerfile`
