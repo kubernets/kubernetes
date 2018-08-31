@@ -15,6 +15,21 @@
 
 ## use
 
-1. generate git readme.md
+### flag
+
+- -H for help
+- -D for debug
+
+### commad
+
+1. generate images readme.md
 
     > ./script/git-push.sh -r
+
+1. generate repo readme.md
+
+    > ./script/git-push.sh -R
+
+1. init/commit images repo
+
+    > ./script/git-push.sh -G

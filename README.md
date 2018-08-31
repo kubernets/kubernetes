@@ -4,6 +4,10 @@ github addr [https://github.com/kubernets/Kubernetes](https://github.com/kuberne
 
 docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/kubernets)
 
+use shell script to pull docker image and replace origin tag
+
+> wget https://github.com/kubernets/Kubernetes/raw/master/get-Kubernetes-image.sh
+
 ## Arch and Version
 
 1. **coredns** 1.1.3
@@ -17,6 +21,10 @@ docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/ku
 1. **etcd** 3.2.18
 
     https://github.com/kubernets/etcd
+
+1. **spinnaker-clouddriver** 2.0.0-20180221152902
+
+    https://github.com/kubernets/spinnaker-clouddriver
 
 1. **kube-apiserver** v1.11.2
 
@@ -34,6 +42,10 @@ docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/ku
 
     https://github.com/kubernets/hyperkube
 
+1. **spinnaker-gate** 0.10.0-20180221133510
+
+    https://github.com/kubernets/spinnaker-gate
+
 1. **kube-proxy** v1.11.2
 
     https://github.com/kubernets/kube-proxy
@@ -46,17 +58,37 @@ docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/ku
 
     https://github.com/kubernets/pause
 
+1. **spinnaker-deck** 2.1.0-20180221143146
+
+    https://github.com/kubernets/spinnaker-deck
+
+1. **spinnaker-igor** 0.9.0-20180221133510
+
+    https://github.com/kubernets/spinnaker-igor
+
 1. **k8s-dns-dnsmasq-nanny** 1.14.10
 
     https://github.com/kubernets/k8s-dns-dnsmasq-nanny
+
+1. **spinnaker-orca** 0.10.0-20180221133510
+
+    https://github.com/kubernets/spinnaker-orca
 
 1. **kube-controller-manager** v1.11.2
 
     https://github.com/kubernets/kube-controller-manager
 
+1. **spinnaker-echo** 0.8.0-20180221133510
+
+    https://github.com/kubernets/spinnaker-echo
+
 1. **k8s-dns-kube-dns** 1.14.10
 
     https://github.com/kubernets/k8s-dns-kube-dns
+
+1. **spinnaker-front50** 0.9.0-20180221133510
+
+    https://github.com/kubernets/spinnaker-front50
 
 1. **heapster-grafana** v5.0.4
 

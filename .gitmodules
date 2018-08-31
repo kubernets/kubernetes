@@ -46,3 +46,24 @@
 [submodule "tiller"]
 	path = tiller
 	url = git@github.com:kubernets/tiller.git
+[submodule "spinnaker-clouddriver"]
+	path = spinnaker-clouddriver
+	url = git@github.com:kubernets/spinnaker-clouddriver.git
+[submodule "spinnaker-gate"]
+	path = spinnaker-gate
+	url = git@github.com:kubernets/spinnaker-gate.git
+[submodule "spinnaker-deck"]
+	path = spinnaker-deck
+	url = git@github.com:kubernets/spinnaker-deck.git
+[submodule "spinnaker-igor"]
+	path = spinnaker-igor
+	url = git@github.com:kubernets/spinnaker-igor.git
+[submodule "spinnaker-orca"]
+	path = spinnaker-orca
+	url = git@github.com:kubernets/spinnaker-orca.git
+[submodule "spinnaker-echo"]
+	path = spinnaker-echo
+	url = git@github.com:kubernets/spinnaker-echo.git
+[submodule "spinnaker-front50"]
+	path = spinnaker-front50
+	url = git@github.com:kubernets/spinnaker-front50.git

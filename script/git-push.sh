@@ -33,7 +33,7 @@ function help(){
     echo $0 -c for clean .git and README.md
     echo $0 -G for enable init git
     echo $0 -R for enable gen readme
-    echo $0 -r for enable gen git readme
+    echo $0 -r for enable gen images readme
     echo $0 -P for enable disable git push
     echo $0 -H for help
 }
@@ -88,6 +88,12 @@ function git-init(){
 
 # git commit 
 function git-commit(){
+    ret=`git status`
+    commit=$(echo ${ret} | grep "干净的工作区")
+    if [[ "${commit}" != "" ]]; then
+        echo exit `pwd`
+	    return
+    fi
     $debug git add *
     $debug git commit -m "$2"
     if [ "$3" == "" ]; then
@@ -123,6 +129,10 @@ github addr [$github_base/$2]($github_base/$2)
 
 docker hub addr [$docker_hub]($docker_hub)
 
+use shell script to pull docker image and replace origin tag
+
+> wget $github_base/$2/raw/master/get-$2-image.sh
+
 ## Arch and Version
 EOF
 }
@@ -141,7 +151,17 @@ function add-readme-arch(){
 - [**$3** $4]($docker_base/$2$arch)
 
     > docker pull $organization/$2$arch:$4
+
+    > docker tag $organization/$2$arch:$4 $5 
+
+    > docker rmi $organization/$2$arch:$4
 EOF
+            $debug tee -a $1/get-$2-image.sh << EOF
+docker pull $organization/$2$arch:$4
+docker tag $organization/$2$arch:$4 $5 
+docker rmi $organization/$2$arch:$4
+EOF
+            $debug chmod +x $1/get-$2-image.sh            
         fi
     fi
 }
@@ -216,7 +236,7 @@ function init(){
                     echo "README.md is in `pwd`"
                 fi
             fi
-            add-readme-arch . $dir_name $arch $tag
+            add-readme-arch . $dir_name $arch $tag ${text##"FROM "}
         fi
 
         if [ "${init_git}" == "1" ]; then
