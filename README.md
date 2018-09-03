@@ -64,6 +64,10 @@ docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/ku
 
     https://github.com/kubernets/spinnaker-clouddriver
 
+1. **spinnaker-rosco** 0.5.0-20180221133510
+
+    https://github.com/kubernets/spinnaker-rosco
+
 1. **kube-apiserver** v1.11.2
 
     https://github.com/kubernets/kube-apiserver

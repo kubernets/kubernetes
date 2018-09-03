@@ -23,6 +23,11 @@ wget https://github.com/kubernets/etcd/raw/master/get-etcd-image.sh
 # repo: https://github.com/kubernets/spinnaker-clouddriver
 wget https://github.com/kubernets/spinnaker-clouddriver/raw/master/get-spinnaker-clouddriver-image.sh
 
+# image: spinnaker-rosco 
+# tag: 0.5.0-20180221133510
+# repo: https://github.com/kubernets/spinnaker-rosco
+wget https://github.com/kubernets/spinnaker-rosco/raw/master/get-spinnaker-rosco-image.sh
+
 # image: kube-apiserver 
 # tag: v1.11.2
 # repo: https://github.com/kubernets/kube-apiserver
