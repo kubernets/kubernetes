@@ -1,3 +1,8 @@
+# image: spinnaker-halyard 
+# tag: 1.9.1-20180830145737
+# repo: https://github.com/kubernets/spinnaker-halyard
+wget https://github.com/kubernets/spinnaker-halyard/raw/master/get-spinnaker-halyard-image.sh
+
 # image: coredns 
 # tag: 1.1.3
 # repo: https://github.com/kubernets/coredns

@@ -67,3 +67,6 @@
 [submodule "spinnaker-front50"]
 	path = spinnaker-front50
 	url = git@github.com:kubernets/spinnaker-front50.git
+[submodule "spinnaker-halyard"]
+	path = spinnaker-halyard
+	url = git@github.com:kubernets/spinnaker-halyard.git

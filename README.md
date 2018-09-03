@@ -44,6 +44,10 @@ docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/ku
 
 ## Arch and Version
 
+1. **spinnaker-halyard** 1.9.1-20180830145737
+
+    https://github.com/kubernets/spinnaker-halyard
+
 1. **coredns** 1.1.3
 
     https://github.com/kubernets/coredns
