@@ -24,6 +24,24 @@ docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/ku
 
     > wget https://github.com/kubernets/Kubernetes/raw/master/get-Kubernetes-image.sh
 
+* **find new version form google**
+
+    > https://console.cloud.google.com/gcr/images/google-containers/GLOBAL?location=GLOBAL&project=google-containers
+
+* **update**
+
+    1. generate images README.md
+
+        > ./script/git-push.sh -r
+
+    1. generate this repo README.md
+
+        > ./script/git-push.sh -R
+
+    1. git init/commit images repo and push to origin
+
+        > ./script/git-push.sh -G
+
 ## Arch and Version
 
 1. **coredns** 1.1.3

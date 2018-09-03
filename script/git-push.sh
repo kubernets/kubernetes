@@ -148,6 +148,24 @@ docker hub addr [$docker_hub]($docker_hub)
 
     > wget $github_base/$2/raw/master/get-$2-image.sh
 
+* **find new version form google**
+
+    > https://console.cloud.google.com/gcr/images/google-containers/GLOBAL?location=GLOBAL&project=google-containers
+
+* **update**
+
+    1. generate images README.md
+
+        > ./script/git-push.sh -r
+
+    1. generate this repo README.md
+
+        > ./script/git-push.sh -R
+
+    1. git init/commit images repo and push to origin
+
+        > ./script/git-push.sh -G
+
 ## Arch and Version
 EOF
 }
