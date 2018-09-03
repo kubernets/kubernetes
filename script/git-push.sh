@@ -120,6 +120,37 @@ function git-root-init(){
     $debug cd -
 }
 
+function readme-root-init(){
+    $debug tee $1/README.md << EOF
+# $2 image repo
+
+github addr [$github_base/$2]($github_base/$2)
+
+docker hub addr [$docker_hub]($docker_hub)
+
+* **clone repo and pull all submodule**
+
+    > git clone git@github.com:kubernets/kubernetes.git --recursive
+
+    or
+
+    > git clone https://github.com/kubernets/kubernetes.git --recursive
+
+* **pull git submodule**
+
+    > git submodule init
+
+    > git submodule sync
+
+    > git submodule update
+
+* **get shell script to download all image's script**
+
+    > wget $github_base/$2/raw/master/get-$2-image.sh
+
+## Arch and Version
+EOF
+}
 
 function readme-init(){
     $debug tee $1/README.md << EOF
@@ -129,9 +160,9 @@ github addr [$github_base/$2]($github_base/$2)
 
 docker hub addr [$docker_hub]($docker_hub)
 
-use shell script to pull docker image and replace origin tag
+get shell script to pull docker image and replace origin tag
 
-> wget $github_base/$2/raw/master/get-$2-image.sh
+    > wget $github_base/$2/raw/master/get-$2-image.sh
 
 ## Arch and Version
 EOF
@@ -185,7 +216,7 @@ EOF
 
 function gen-root-readme(){
     if [ "$debug" == "" ]; then
-        readme-init $1 "Kubernetes"
+        readme-root-init $1 "Kubernetes"
         rm -f $1/get-Kubernetes-image.sh
     fi
 

@@ -1,12 +1,28 @@
-# Kubernetes
+# Kubernetes image repo
 
 github addr [https://github.com/kubernets/Kubernetes](https://github.com/kubernets/Kubernetes)
 
 docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/kubernets)
 
-use shell script to pull docker image and replace origin tag
+* **clone repo and pull all submodule**
 
-> wget https://github.com/kubernets/Kubernetes/raw/master/get-Kubernetes-image.sh
+    > git clone git@github.com:kubernets/kubernetes.git --recursive
+
+    or
+
+    > git clone https://github.com/kubernets/kubernetes.git --recursive
+
+* **pull git submodule**
+
+    > git submodule init
+
+    > git submodule sync
+
+    > git submodule update
+
+* **get shell script to download all image's script**
+
+    > wget https://github.com/kubernets/Kubernetes/raw/master/get-Kubernetes-image.sh
 
 ## Arch and Version
 
