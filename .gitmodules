@@ -73,3 +73,6 @@
 [submodule "spinnaker-rosco"]
 	path = spinnaker-rosco
 	url = git@github.com:kubernets/spinnaker-rosco.git
+[submodule "spinnaker-redis"]
+	path = spinnaker-redis
+	url = git@github.com:kubernets/spinnaker-redis.git

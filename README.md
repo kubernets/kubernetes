@@ -60,11 +60,11 @@ docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/ku
 
     https://github.com/kubernets/etcd
 
-1. **spinnaker-clouddriver** 2.0.0-20180221152902
+1. **spinnaker-clouddriver** 3.4.2-20180828182842
 
     https://github.com/kubernets/spinnaker-clouddriver
 
-1. **spinnaker-rosco** 0.5.0-20180221133510
+1. **spinnaker-rosco** 0.7.3-20180818041609
 
     https://github.com/kubernets/spinnaker-rosco
 
@@ -84,7 +84,11 @@ docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/ku
 
     https://github.com/kubernets/hyperkube
 
-1. **spinnaker-gate** 0.10.0-20180221133510
+1. **spinnaker-redis** v2
+
+    https://github.com/kubernets/spinnaker-redis
+
+1. **spinnaker-gate** 1.1.1-20180829141913
 
     https://github.com/kubernets/spinnaker-gate
 
@@ -100,7 +104,7 @@ docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/ku
 
     https://github.com/kubernets/pause
 
-1. **spinnaker-deck** 2.1.0-20180221143146
+1. **spinnaker-deck** 2.4.1-20180824212434
 
     https://github.com/kubernets/spinnaker-deck
 
@@ -112,7 +116,7 @@ docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/ku
 
     https://github.com/kubernets/k8s-dns-dnsmasq-nanny
 
-1. **spinnaker-orca** 0.10.0-20180221133510
+1. **spinnaker-orca** 1.0.0-20180814155153
 
     https://github.com/kubernets/spinnaker-orca
 
@@ -120,7 +124,7 @@ docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/ku
 
     https://github.com/kubernets/kube-controller-manager
 
-1. **spinnaker-echo** 0.8.0-20180221133510
+1. **spinnaker-echo** 2.0.1-20180817041609
 
     https://github.com/kubernets/spinnaker-echo
 
@@ -128,7 +132,7 @@ docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/ku
 
     https://github.com/kubernets/k8s-dns-kube-dns
 
-1. **spinnaker-front50** 0.9.0-20180221133510
+1. **spinnaker-front50** 0.12.0-20180802022808
 
     https://github.com/kubernets/spinnaker-front50
 

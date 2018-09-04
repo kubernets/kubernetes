@@ -180,7 +180,7 @@ docker hub addr [$docker_hub]($docker_hub)
 
 get shell script to pull docker image and replace origin tag
 
-    > wget $github_base/$2/raw/master/get-$2-image.sh
+    wget $github_base/$2/raw/master/get-$2-image.sh
 
 ## Arch and Version
 EOF
