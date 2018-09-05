@@ -79,7 +79,7 @@ wget https://github.com/kubernets/pause/raw/master/get-pause-image.sh
 wget https://github.com/kubernets/spinnaker-deck/raw/master/get-spinnaker-deck-image.sh
 
 # image: spinnaker-igor 
-# tag: 0.9.0-20180221133510
+# tag: 0.12.0-20180726022808
 # repo: https://github.com/kubernets/spinnaker-igor
 wget https://github.com/kubernets/spinnaker-igor/raw/master/get-spinnaker-igor-image.sh
 

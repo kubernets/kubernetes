@@ -108,7 +108,7 @@ docker hub addr [https://hub.docker.com/u/kubernets](https://hub.docker.com/u/ku
 
     https://github.com/kubernets/spinnaker-deck
 
-1. **spinnaker-igor** 0.9.0-20180221133510
+1. **spinnaker-igor** 0.12.0-20180726022808
 
     https://github.com/kubernets/spinnaker-igor
 
